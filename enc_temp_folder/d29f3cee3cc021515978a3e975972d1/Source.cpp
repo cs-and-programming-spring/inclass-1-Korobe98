@@ -2,8 +2,8 @@
 
 
 /***********************************************
-* Name: Korobellis Anthony
-* Email: Korobe98@students.rowan.edu
+* Name: Takeshwari Kamal
+* Email: kamalt4@students.rowan.edu
 ***********************************************
 * Purpose:
 *  This program calculates area of circle
