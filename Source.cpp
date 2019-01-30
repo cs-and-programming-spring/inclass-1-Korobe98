@@ -13,7 +13,7 @@
 
 using namespace std; 
 
-const  float PI = 3.14159; 
+const float PI = 3.14159; 
 const float KM_Per_Mile = 1.6;
 
 int main()
@@ -37,7 +37,25 @@ int main()
 	cout << " The distance in kilometers is " << kms << "\n\n";
 	cout << "Program has ended"<<endl;
 
-	system("pause");
+	float circumference,radius;
+
+		// Display purpose of the program 
+	    cout << " ******************************************" << endl;
+	    cout << "This program calculates the circumference of a circle"<<endl;
+		cout << " ******************************************\n\n";
+
+		// Get user input 
+		cout << " Please enter the radius ";
+		cin >> radius;
+
+		// Calculate the radius 
+		circumference = PI*radius*2;
+
+		// Display the Circumference 
+		cout << "The circumference of the circle is" << circumference << "\n\n"; 
+		cout << "program has ended" << endl;
 	
-	return 0;
+
+		system("pause");
+		return 0;
 }
