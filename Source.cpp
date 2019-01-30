@@ -13,27 +13,28 @@
 
 using namespace std; 
 
-const  float PI = 3.14159;
+const  float PI = 3.14159; 
+const float KM_Per_Mile = 1.6;
 
 int main()
 {
 
-	float radius, area, circumference;
+	float miles, kms;
 	
 	//Display purpose of the program
 	cout << " ******************************************"<<endl;
-	cout << " This program takes in radius to compute area of circle" <<endl;
+	cout << " This program converts distance in miles into distance in kilometers"<<endl;
 	cout << " ******************************************\n\n";
 	
 	//Get user input
-	cout << "Please input radius: ";
-	cin >> radius;
+	cout << "Please input the distance in miles: ";
+	cin >> miles;
 	
-	//Compute area to PI*radius*radius
-	area = PI* radius *radius; 
+	//Compute miles into kilometers
+	kms = KM_Per_Mile * miles;
 	
 	//Display the area 
-	cout << " The area is = " << area << "\n\n";
+	cout << " The distance in kilometers is " << kms << "\n\n";
 	cout << "Program has ended"<<endl;
 
 	system("pause");
